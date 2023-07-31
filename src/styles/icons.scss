@@ -1,0 +1,12 @@
+.icon {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  min-width: 30px;
+  min-height: 30px;
+
+  &.back {
+    mask: url('../assets/icons/back.svg') no-repeat center / contain;
+    -webkit-mask: url('../assets/icons/back.svg') no-repeat center / contain;
+  }
+}

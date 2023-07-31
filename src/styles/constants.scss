@@ -1,0 +1,4 @@
+:root {
+  --d-footer-height: 110px;
+  --safe-area-height: calc(100vh - var(--d-footer-height));
+}
